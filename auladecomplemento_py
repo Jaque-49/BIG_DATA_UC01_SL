@@ -1,0 +1,18 @@
+#
+soma = 0
+maior = 0
+media = 0
+nome_maior = ""
+for i in range(2):
+    #inicio do bloco
+    nome = input("Infome o nome:")
+    num = int(input("informe a idade:"))
+    if num > maior:
+        maior = num
+        nome = nome_maior
+    soma = soma + num #acumulador
+    media = (soma + num)/10
+    # fim do bloco
+print (f"o Resultado da soma é: {soma}") 
+print (f"o número da média é: {media}") 
+print (f"o número dmais velha é: {nome}") 
