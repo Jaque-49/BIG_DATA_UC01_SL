@@ -1,0 +1,12 @@
+#
+valor = float(input("Qual o valor que você recebe por hora?"))
+HT= float(input("Qual a sua quantidade de horas trabalhadas ao mês?"))
+salario = (valor * HT)
+ir = (salario * (11/100))
+inss = (salario * (8/100))
+sindicato = (salario * (5/100))
+salario_liquido = salario - (ir + inss + sindicato)
+print (f" Valor pago ao IR: {ir}")
+print (f" Valor pago ao INSS: {inss}")
+print (f" Valor pago ao Sindicato: {sindicato}")
+print (f" Seu salário líquido é? {salario_liquido}")
