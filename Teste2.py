@@ -1,4 +1,4 @@
-#
+#Temperatura dos finais de semana de um mês
 soma = 0
 media = 0
 n1 = 0
