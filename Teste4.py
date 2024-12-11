@@ -1,10 +1,10 @@
-#Programa para traa erro de entrada de dados
+#características físicas da população
 idade = 0
 maior_idade = 0
 feminino_18_35 = 0 
 olhos_verdes_cabelos_louros = 0
 sexo = 0
-for i in range(2):
+for i in range(10):
     idade = int(input("Digite a sua idade:"))
     sexo = input("Digite o sexo (masculino ou feminino):")
     olhos = input("Digite a cor dos olhos (azuis,verdes ou castanhos) :")
