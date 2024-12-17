@@ -1,0 +1,21 @@
+#Código usando séries
+import pandas as pd
+RA = pd.Series([100,90,80,120,110,90,70])
+FA = pd.Series([80,60,70,60,100,50,30])
+RECA = pd.Series([70,50,90,80,100,70,50])
+SOMA = RA + FA
+SUB = ((RECA/RA)*100)
+print("----QTDADE DE ROUBOS---")
+print(SOMA)
+print("\n----TAXA DE REC---")
+print(SUB)
+print("\n----Total de roubos de veículos---")
+print(sum(RA))
+print("\n----Total de furtos de veículos---")
+print(sum(FA))
+print("\n----Total de recuperação de veículos---")
+print(sum(RECA))
+print("\n----Total de recuperação de veículos---")
+print(sum)
+print("\n----pERCENTUAL TOTAL DE rECUPERAÇÃO DE VEÍCULOS--")
+print(sum)
