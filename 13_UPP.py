@@ -53,3 +53,4 @@ if len(df_outliers_superiores_hom_doloso) == 0:
     print("Não existem outliers superiores")
 else:
     print(df_outliers_superiores_hom_doloso)
+
